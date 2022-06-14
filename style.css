@@ -89,14 +89,17 @@ img{
 .ajaxul{
     list-style-type:square;
     line-height: 2.9em;
-    list-style-position: outside;
+    list-style-position: inside;
     letter-spacing: .1em;
     padding: 0%;
+    
     /* box-shadow: antiquewhite; */
 }
 
 #ajaxli{
     color: aqua;
+    /* border: 1px solid #000; */
+    border-bottom: 1.8px solid rgba(235, 152, 243, 0.306);
 }
 .footerulli{
     margin-left: 950px;
@@ -116,6 +119,8 @@ img{
 .card{
     width: 26em;
     margin: .5em;
+    box-shadow: #000;
+    /* border-radius: 99em; */
 } 
 
 .container {
@@ -126,14 +131,16 @@ img{
 }
 
 #ajaxdamimg{
-    padding-top: .5em;
-    padding-bottom: .5em;
-    height: 23em;
-    width: 23em;
+    padding-top: 1.5em;
+    /* padding-bottom: .5em; */
+    padding-left: 1.5em;
+    height: 29em;
+    width: 23em;  
+
 } 
 #ajaxdiverimg{
     width: 380px;
-    
+    /* border-radius: 99.9px; */
     padding: .5em;
     padding-top: 2.2em;
     
@@ -141,6 +148,7 @@ img{
 #ajaxroverimg{
     padding: .5em;
     width: 24em;
+    /* border-radius: 99.9em; */
 }
 
 .mynav li a:hover{
