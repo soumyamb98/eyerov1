@@ -19,7 +19,7 @@ $(document).ready(function(){
                 // var ajaxoutput = "";
                 if (response.hasOwnProperty(key)) {
                     
-                    ajaxoutput += `<li> ${key}: ${response[key]} </li>`;
+                    ajaxoutput += `<li id="ajaxli"> ${key}: ${response[key]} </li>`;
                     document.getElementById("demo").innerHTML = ajaxoutput;
                     console.log(`${key}: ${response[key]}`);
                     // damName: Shirawata Dam ajaxscript.js: 21
@@ -38,6 +38,7 @@ $(document).ready(function(){
 
     xhttp.open("GET","https://eyerov-hiring-tasks-server-ujyffp74ba-el.a.run.app/api/dam-details",true);
     xhttp.send();
+
 
 
 
