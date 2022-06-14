@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color:aquamarine */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.mynav{
+    color: #fff;
+}
+
+.blue{
+    color: rgb(0, 255, 183);
+}
+
+/*----------bootstrap-navbar-css------------*/
+.navbar-logo {
+    padding: 15px;
+    color: #fff;
+}
+
+.navbar-mainbg {
+    background-color: #5161ce;
+    padding: 2px;
+}
+
+
+
+@media(min-width: 992px) {
+    .navbar-expand-custom {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-custom .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-expand-custom .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #navbarSupportedContent ul li a {
+        padding: 12px 30px;
+    }
+}
+
+
+img{
+    width: 50px;
+}
+.mymainfooter {
+    /* display: flex;
+    align-items:stretch */
+    margin-bottom: 0px;
+    background-color: #5161ce;
+    /* border-top: .5px solid rgba(255, 255, 255, .3);*/
+    color: white;
+    /* padding: .2em 0; */ 
+
+}
+
+
+.footerulli{
+    margin-left: 950px;
+}
+.footer ul li a{
+    color: #000;
+}
+
+/* .mymainfootercontainer {
+    display: flex;
+    align-items: flex-end;
+} */
+
+
+/* .mymainfootercontainer ul {
+    flex-grow: 1;
+    text-align: end;
+} */
+
+/* .myfooternav li {
+    padding: 0 .2em;
+} */
+
+/* .myfooternav img {
+    width: 30px;
+    height: 30px;
+} */
+
+.myfooternav {
+    display: flex;
+    align-items: flex-start;
+    height: .5em;
+}
+
+.card{
+    width: 26em;
+    margin: .5em;
+} 
+
+.container {
+    max-width: 900px;
+    margin: 3.5em auto;
+    padding: 0 1em;
+    
+}
+
+#ajaxdamimg{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    height: 23em;
+    width: 23em;
+} 
+#ajaxdiverimg{
+    width: 380px;
+    
+    padding: .5em;
+    padding-top: 2.2em;
+    
+}
+#ajaxroverimg{
+    padding: .5em;
+    width: 24em;
+}
+
+.mynav li a:hover{
+    color: #fff;
+}
+
+/* .mynav{
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
