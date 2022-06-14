@@ -83,17 +83,9 @@
     <div class="card cardd" >
         <div class="card-body">
             <div class="card-body">
-                <section>
-                    <!--  <div id="demo" class="demo"> -->
-                    <!-- <ul id="ajax" onchange="alert()">  -->
-                    <!-- <ul id="ajax">
-                    </ul> -->
-                    <!-- </div>  -->
-                </section>
-            
-            <ul class="card-text" id="demo" class="demo">ajax</ul>
+                <ul class="card-text" id="demo" class="demo">ajax</ul>
                 <div id="filedowload">
-                    <button onclick="filedowload()"></button>
+                    <button onclick="filedowload()">click</button>
                 <a href="images/pdfdownload.pdf" class="btn btn-primary" download="pdfdownload.pdf">Open Soft-Copy Report</a>
                 <!-- <a href="images/pdfdownload.pdf" class="btn btn-primary" download="pdfdownload.pdf">Open Soft-Copy Report</a> -->
                 </div>
@@ -116,16 +108,25 @@
 
 
 
-<!-- second row cards -->
+<!-- second row cards ajax imgs-->
 
 <section class="container row cards">
     <!-- second row first card  -->
-    <div class="card border-primary mb-3" id="diverimg">
-        
+    <div class="card border-primary mb-3">
+        <div  id="diverimg">
+        </div>
+        <div>
+            <button class="btn btn-primary" style="margin-left: 1.5em;">open project</button> <button class="btn btn-danger" style="margin-left: 1.5em;">export customer</button>
+        </div>
     </div>
+    
     <!-- second row second card  -->
-    <div class="card border-secondary mb-3" id="roverimg">
-       
+    <div class="card border-secondary mb-3">
+        <div  id="roverimg">
+        </div>
+        <div>
+            <button class="btn btn-primary" style="margin-left: 1.5em; margin-bottom: .5em;">open project</button> <button class="btn btn-danger" style="margin-left: 1.5em; margin-bottom: .5em;">export customer</button>
+        </div>
     </div>
 </section>
 
